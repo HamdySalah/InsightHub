@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Read More Articles</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        line-height: 1.9;
+        color: #333;
+        font-size: larger;
+      }
+
+      header {
+        background-color: #2c3e50;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      .content {
+        margin: 20px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h2 {
+        color: #2c3e50;
+        font-size: 28px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+
+      strong {
+        font-weight: bold;
+      }
+
+      .read-more {
+        margin-top: 20px;
+      }
+
+      button {
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      button:hover {
+        background-color: #2980b9;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+        font-size: 0.9em;
+        box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        background-color: #2c3e50;
+        position: sticky;
+      }
+      .social-links a {
+        color: #ddd;
+        text-decoration: none;
+        margin: 0 5px;
+        font-size: 0.9em;
+      }
+      .social-links a:hover {
+        color: #555;
+      }
+      .main-container {
+        display: flex;
+        max-width: 1200px;
+        margin: 20px auto;
+        gap: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar">
+          <a href="#" class="logo">InsightHub</a>
+          <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="readmore.html">About</a>
+            <a href="mailto:iamhamdysalah97@gmail.com">Contact</a>
+          </div>
+          <div>
+            <button class="dark-mode">Dark Mode</button>
+            <button class="reg"><a href="login.html">Log In</a></button>
+            <button class="reg"><a href="signup.html">Sign Up</a></button>
+          </div>
+        </nav>
+      <h1>Read More Articles</h1>
+    </header>
+
+    <section class="content">
+      <article>
+        <h2 >Harry Potter: A Magical Journey</h2>
+        <p>
+          The <strong>Harry Potter</strong> series, created by J.K. Rowling, is
+          one of the most influential literary works of modern times. Spanning
+          seven novels, it follows the journey of Harry Potter, an orphaned boy
+          who learns on his eleventh birthday that he is a wizard and has been
+          accepted to Hogwarts School of Witchcraft and Wizardry. Each book
+          represents a school year, chronicling Harry’s growth from a naïve boy
+          into a courageous young man.
+        </p>
+        <div id="harrypotter" class="read-more">
+          <p><strong>Read More:</strong></p>
+          <button id="toggleBtn">Read More</button>
+          <div id="moreText" style="display: none">
+            <h3>Plot Overview</h3>
+            <p>
+              Harry’s journey begins with discovering his magical heritage and
+              the tragic history of his parents, who were killed by the dark
+              wizard Lord Voldemort. Harry, marked by a lightning-shaped scar on
+              his forehead, becomes known as "The Boy Who Lived" because he
+              survived Voldemort's deadly curse. As Harry attends Hogwarts, he
+              befriends Hermione Granger and Ron Weasley, and the trio faces a
+              series of trials, each more complex than the last, unveiling
+              layers of a larger mystery involving Voldemort’s return.
+            </p>
+
+            <h3>Themes and Symbolism</h3>
+            <ul>
+              <li>
+                <strong>Good vs. Evil:</strong> A central theme throughout the
+                series is the battle between good and evil. Harry represents
+                hope and courage, while Voldemort embodies fear and the abuse of
+                power.
+              </li>
+              <li>
+                <strong>Friendship and Loyalty:</strong> Harry, Ron, and
+                Hermione’s friendship is a core aspect of the series, showing
+                how loyalty and trust can overcome any obstacle.
+              </li>
+              <li>
+                <strong>Identity and Belonging:</strong> Harry’s journey is also
+                one of self-discovery as he learns about his past and embraces
+                his identity as a wizard.
+              </li>
+              <li>
+                <strong>Death and Sacrifice:</strong> The series deals openly
+                with themes of death and sacrifice, especially as characters
+                close to Harry are killed or injured in the battle against dark
+                forces.
+              </li>
+            </ul>
+
+            <h3>Cultural Impact and Legacy</h3>
+            <p>
+              Since its debut in 1997, the Harry Potter series has become a
+              global phenomenon, translated into over 80 languages and adapted
+              into a successful film series. Beyond its commercial success, the
+              books have inspired countless readers and fostered a renewed
+              interest in fantasy literature.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article>
+        <h2>The Wonders of Space Exploration</h2>
+        <p>
+          Space exploration, the pursuit of discovering and understanding the
+          cosmos beyond our planet, has captured humanity’s imagination for
+          centuries. From the first lunar landings to the ongoing study of
+          distant planets and stars, space exploration has not only expanded our
+          scientific knowledge but also inspired countless generations. The
+          journey through the stars is as much about exploring the unknown as it
+          is about advancing technology, fostering international cooperation,
+          and posing fundamental questions about our place in the universe.
+        </p>
+
+        <div id="space" class="read-more">
+          <p><strong>Read More:</strong></p>
+          <button id="toggleBtn2">Read More</button>
+          <div id="moreText2" style="display: none">
+            <h3>The Early Days of Space Exploration</h3>
+            <p>
+              Space exploration began in the mid-20th century during the height
+              of the Cold War, driven by the desire for technological dominance
+              and scientific discovery. The first significant achievement came
+              in 1957 with the launch of *Sputnik 1* by the Soviet Union,
+              marking the beginning of the space age. This sparked an intense
+              space race between the United States and the Soviet Union, leading
+              to remarkable feats like the first human spaceflight by Yuri
+              Gagarin in 1961, followed by the iconic Apollo 11 mission, where
+              American astronauts Neil Armstrong and Buzz Aldrin became the
+              first humans to walk on the Moon in 1969.
+            </p>
+
+            <h3>The Golden Age of Space Discovery</h3>
+            <p>
+              Following the Moon landings, the focus of space exploration
+              shifted towards more complex missions. Space telescopes like the
+              Hubble Space Telescope (launched in 1990) have provided stunning
+              images of far-off galaxies, nebulae, and stars, revolutionizing
+              our understanding of the universe. Robotic spacecraft, such as
+              NASA's *Mars rovers*, have explored the surfaces of other planets,
+              sending back invaluable data about the composition, atmosphere,
+              and potential for life on planets like Mars.
+            </p>
+
+            <h3>The Quest for Life Beyond Earth</h3>
+            <p>
+              One of the most exciting aspects of space exploration is the
+              search for life beyond Earth. With the discovery of thousands of
+              exoplanets (planets orbiting stars outside our solar system), many
+              in the habitable zone where life could potentially exist, the
+              question of whether we are alone in the universe has never been
+              more pressing. Missions such as the *Kepler Space Telescope* and
+              the more recent *James Webb Space Telescope* continue to hunt for
+              signs of Earth-like planets and the chemical building blocks
+              necessary for life.
+            </p>
+
+            <h3>The Future of Space Exploration</h3>
+            <p>
+              The future of space exploration holds boundless potential. New
+              technologies like reusable rockets, pioneered by private companies
+              such as SpaceX, are reducing the cost of space travel, making
+              space more accessible to private ventures, and opening the door
+              for future commercial space travel. The idea of humans becoming a
+              multi-planetary species, with plans for missions to Mars and
+              beyond, is slowly becoming more feasible.
+            </p>
+
+            <h3>Conclusion</h3>
+            <p>
+              Space exploration continues to be one of the most exhilarating and
+              transformative frontiers of human achievement. It challenges our
+              understanding of science, technology, and what it means to be
+              human. As we venture further into the unknown, each discovery adds
+              to the grand story of our species, pushing the boundaries of what
+              is possible. The future of space exploration is not just about
+              discovering new worlds but also about finding new ways to
+              collaborate, innovate, and inspire the next generation of
+              explorers.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article>
+        <h2>The Rise of Artificial Intelligence</h2>
+        <p>
+          Artificial Intelligence (AI) has evolved from a mere science fiction
+          concept to a transformative technology reshaping various industries.
+          AI encompasses machine learning, natural language processing, and
+          robotics, allowing machines to perform tasks that typically require
+          human intelligence, such as visual perception, speech recognition, and
+          decision-making. The rapid advancements in AI have resulted in its
+          integration into a wide range of sectors, from healthcare to finance,
+          education, and even entertainment.
+        </p>
+
+        <div id="ai" class="read-more">
+          <p><strong>Read More:</strong></p>
+          <button id="toggleBtn3">Read More</button>
+          <div id="moreText3" style="display: none">
+            <h3>AI in Healthcare</h3>
+            <p>
+              In healthcare, AI has been instrumental in early diagnosis,
+              personalized treatment plans, and drug development. Machine
+              learning algorithms analyze vast amounts of medical data to
+              identify patterns and predict patient outcomes, improving the
+              efficiency and accuracy of medical care. AI-powered diagnostic
+              tools, like those used for imaging analysis, have already shown
+              significant promise in detecting conditions such as cancer and
+              heart disease.
+            </p>
+
+            <h3>AI and Automation</h3>
+            <p>
+              Another significant impact of AI is its role in automation.
+              Industries such as manufacturing, logistics, and even customer
+              service are increasingly using AI to automate repetitive tasks.
+              Robotics, combined with machine learning, allows for precision and
+              efficiency in production lines, reducing human error and
+              increasing output. However, this shift also raises concerns about
+              the future of jobs and the potential displacement of workers by
+              machines.
+            </p>
+
+            <h3>Ethical Considerations</h3>
+            <p>
+              As AI continues to advance, ethical questions surrounding its use
+              are becoming more prominent. Concerns about data privacy,
+              algorithmic bias, and the potential for AI to be used maliciously
+              must be addressed. Governments and organizations are working on
+              regulations and frameworks to ensure AI development benefits
+              society while minimizing harm. Responsible AI development is
+              essential to ensure fairness, transparency, and accountability in
+              decision-making processes.
+            </p>
+
+            <h3>The Future of AI</h3>
+            <p>
+              The future of AI holds endless possibilities. From autonomous
+              vehicles to personalized digital assistants, the technology is
+              poised to revolutionize our daily lives. However, it is crucial to
+              balance innovation with caution. As AI continues to evolve, it's
+              important to ensure that its advancements are aligned with human
+              values and that it is used to solve some of the world's most
+              pressing challenges, including climate change, healthcare access,
+              and education.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article>
+        <h2>The Importance of Climate Change Awareness</h2>
+        <p>
+          Climate change is one of the most pressing challenges facing humanity
+          today. The evidence of rising global temperatures, extreme weather
+          events, and melting ice caps is undeniable. The impact of climate
+          change is already being felt across the globe, from droughts and
+          floods to more frequent hurricanes and wildfires. It is critical for
+          individuals, communities, and governments to acknowledge the severity
+          of this issue and take collective action to combat it.
+        </p>
+
+        <div id="clim" class="read-more">
+          <p><strong>Read More:</strong></p>
+          <button id="toggleBtn4">Read More</button>
+          <div id="moreText4" style="display: none">
+            <h3>The Causes of Climate Change</h3>
+            <p>
+              The primary driver of climate change is the increase in greenhouse
+              gases (GHGs) in the Earth's atmosphere, particularly carbon
+              dioxide (CO2), methane (CH4), and nitrous oxide (N2O). These gases
+              trap heat from the sun, causing the planet to warm. Human
+              activities, such as burning fossil fuels for energy,
+              deforestation, and industrial farming, have significantly
+              increased the concentration of these gases, exacerbating global
+              warming.
+            </p>
+
+            <h3>Consequences of Climate Change</h3>
+            <p>
+              The consequences of climate change are far-reaching and affect all
+              aspects of life. Rising temperatures are leading to more frequent
+              and severe heatwaves, which pose health risks, particularly in
+              vulnerable populations. Sea levels are rising due to melting ice
+              caps and glaciers, threatening coastal communities and
+              biodiversity. The disruption of weather patterns has led to
+              prolonged droughts, devastating floods, and increasingly severe
+              storms. These environmental changes also threaten food security,
+              access to clean water, and public health worldwide.
+            </p>
+
+            <h3>The Role of Governments and Policy</h3>
+            <p>
+              Governments around the world play a crucial role in addressing
+              climate change by implementing policies that promote
+              sustainability, reduce GHG emissions, and encourage the adoption
+              of clean energy sources. International agreements such as the
+              Paris Agreement aim to limit global temperature rise to well below
+              2°C above pre-industrial levels. However, many experts argue that
+              more ambitious actions are needed to mitigate the worst effects of
+              climate change and to protect the future of our planet.
+            </p>
+
+            <h3>What Can Individuals Do?</h3>
+            <p>
+              While government action is vital, individual actions also matter
+              in the fight against climate change. People can reduce their
+              carbon footprint by conserving energy, reducing waste, choosing
+              sustainable products, and supporting renewable energy initiatives.
+              Advocacy for climate action, voting for leaders who prioritize the
+              environment, and spreading awareness are also important ways
+              individuals can contribute to the global effort to address climate
+              change.
+            </p>
+
+            <h3>Conclusion: A Global Challenge</h3>
+            <p>
+              Climate change is a global challenge that requires the collective
+              efforts of individuals, governments, and businesses. By raising
+              awareness, making sustainable choices, and advocating for policy
+              changes, we can work towards a future where the environment is
+              protected for generations to come. While the challenge is
+              daunting, the actions we take today can make a significant
+              difference in ensuring a sustainable planet for the future.
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
+    <footer>
+      <p>&copy; 2023 MyBrand. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://www.facebook.com/7amdySalah74">Facebook</a> |
+        <a href="#">Twitter</a> |
+        <a href="https://www.linkedin.com/in/hamdysalah97/">LinkedIn</a>
+      </div>
+    </footer>
+
+    <script>
+      const toggleBtn = document.getElementById("toggleBtn");
+      const moreText = document.getElementById("moreText");
+
+      toggleBtn.addEventListener("click", function () {
+        if (moreText.style.display === "none") {
+          moreText.style.display = "block";
+          toggleBtn.textContent = "Read Less";
+        } else {
+          moreText.style.display = "none";
+          toggleBtn.textContent = "Read More";
+        }
+      });
+      const toggleBtn2 = document.getElementById("toggleBtn2");
+      const moreText2 = document.getElementById("moreText2");
+
+      toggleBtn2.addEventListener("click", function () {
+        if (moreText2.style.display === "none") {
+          moreText2.style.display = "block";
+          toggleBtn2.textContent = "Read Less";
+        } else {
+          moreText2.style.display = "none";
+          toggleBtn2.textContent = "Read More";
+        }
+      });
+      const toggleBtn3 = document.getElementById("toggleBtn3");
+      const moreText3 = document.getElementById("moreText3");
+
+      toggleBtn3.addEventListener("click", function () {
+        if (moreText3.style.display === "none") {
+          moreText3.style.display = "block";
+          toggleBtn3.textContent = "Read Less";
+        } else {
+          moreText3.style.display = "none";
+          toggleBtn3.textContent = "Read More";
+        }
+      });
+
+      const toggleBtn4 = document.getElementById("toggleBtn4");
+      const moreText4 = document.getElementById("moreText4");
+
+      toggleBtn4.addEventListener("click", function () {
+        if (moreText4.style.display === "none") {
+          moreText4.style.display = "block";
+          toggleBtn4.textContent = "Read Less";
+        } else {
+          moreText4.style.display = "none";
+          toggleBtn4.textContent = "Read More";
+        }
+      });
+    </script>
+  </body>
+</html>
